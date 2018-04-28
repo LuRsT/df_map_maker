@@ -13,3 +13,5 @@ TMP=$(ls | grep tmp)
 BM=$(ls | grep bm.bmp)
 
 gimp -d -f -i -b "(create-save \"$ELW\" \"$EL\" \"$VEG\" \"$VOL\" \"$TMP\" \"$BM\" \"TREES.bmp\" \"DIRT.bmp\" \"MOUNTAINS.bmp\" \"map.bmp\")"
+
+mogrify -quality 100 -format jpg map.bmp

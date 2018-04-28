@@ -5,6 +5,11 @@ This is the linux counterpart of this
 
 The Gimp script was *NOT* written by me.
 
+## Requirements:
+
+- Gimp (to make the beautiful map)
+- ImageMagick (for converting into jpg OPTIONAL)
+
 ## How to use:
 
 1. Install the gimp script by copying `DwarfMapMaker.scm` into
